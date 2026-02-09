@@ -1,3 +1,67 @@
 body {
-  background: rgb(144, 144, 220);
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/178/119/original/tabitha-turner-Ns2aJ5OXKds-unsplash.jpg?1770620354");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ecae86;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  background-color: rgba(230, 221, 212, 0.8);
+  margin: 120px auto;
+  max-width: 600px;
+  border-radius: 30px;
+}
+header {
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+h1 {
+  font-weight: 900px;
+  font-size: 36px;
+  text-align: center;
+  color: rgba(140, 88, 49, 1);
+}
+form {
+  padding: 30px;
+  display: flex;
+}
+.instructions {
+  background-color: white;
+  padding: 16px;
+  border: 1px solid rgba(140, 88, 49, 1);
+  width: 60%;
+  font-size: 16px;
+  border-radius: 20px;
+  line-height: 18px;
+}
+.submit-button {
+  background-color: #e6d2ad;
+  margin-left: 10px;
+  color: rgba(140, 88, 49, 1);
+  border: none;
+  border-radius: 20px;
+  padding: 14px 24px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.submit-button:hover {
+  background-color: rgba(140, 88, 49, 1);
+  color: #e6d2ad;
+  cursor: pointer;
+  transition: ease-in-out;
+  border: solid 1px #e6d2ad;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+.recipe {
+  font-size: 16px;
+  padding: 20px;
+  line-height: 1.5;
+  margin-left: 30px;
+  border-left: 4px solid #e6d2ad;
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  padding: 30px;
 }

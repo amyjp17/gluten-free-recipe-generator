@@ -7,34 +7,37 @@
     <title>AI Gluten Free Recipe Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI Gluten Free Recipe Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="What are you hungry for?"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>recipe will go here</div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/amyjp17" target="_blank"> Amy Pannell</a> and
-      is open-sourced on
-      <a
-        href="https://github.com/amyjp17/gluten-free-recipe-generator"
-        target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="https://gluten-free-recipe-generator.netlify.app/">Netlify</a>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Gluten Free Recipe Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="What are you hungry for?"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="recipe">recipe will go here</div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/amyjp17" target="_blank"> Amy Pannell</a>,
+        is open-sourced on
+        <a
+          href="https://github.com/amyjp17/gluten-free-recipe-generator"
+          target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://gluten-free-recipe-generator.netlify.app/">Netlify</a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
