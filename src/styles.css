@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #ecae86;
+  background-attachment: fixed;
   font-family: Arial, Helvetica, sans-serif;
 }
 .container {
