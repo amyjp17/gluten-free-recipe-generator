@@ -15,7 +15,7 @@ function generateRecipe(event) {
   let instructionsInput = document.querySelector("#user-instructions");
   let prompt = `User Instructions: Generate a recipe incorporating ${instructionsInput.value}`;
   let context =
-    "You are an AI assistant that has a lot of knowledge about gluten free cooking. You will be given User Instructions that will either be ingredients or a recipe title and you will generate a recipe in basic HTML format including a title, ingredients list and method. Please only include the HTML in your answer, not ```html. Use h2 for the recipe title and h3 for the ingredients and method headings.";
+    "You are an AI assistant that has a lot of knowledge about gluten free cooking. You will be given User Instructions that will either be ingredients or a recipe title and you will generate a recipe in basic HTML format including a title, ingredients list and method. Please use metric units. Please only include the HTML in your answer, not ```html. Use h2 for the recipe title and h3 for the ingredients and method headings.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   console.log(`Prompt: ${prompt}`);
