@@ -33,7 +33,7 @@ h3 {
   font-weight: 900px;
 }
 form {
-  padding: 30px;
+  padding: 0 30px;
   display: flex;
 }
 .highlight {
@@ -67,12 +67,28 @@ form {
   border: solid 1px #e6d2ad;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
+.hint {
+  font-size: 12px;
+  opacity: 0.8;
+  margin-left: 40px;
+  margin-top: 10px;
+}
 .recipe {
   font-size: 16px;
   padding: 0 20px;
   line-height: 1.5;
+  margin-top: 20px;
   margin-left: 30px;
   border-left: 4px solid #e6d2ad;
+}
+.blink {
+  animation: blink-animation 1.5s steps(1, start) infinite;
+}
+
+@keyframes blink-animation {
+  50% {
+    opacity: 0;
+  }
 }
 footer {
   text-align: center;
